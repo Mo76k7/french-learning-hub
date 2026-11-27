@@ -977,16 +977,16 @@ const LESSONS = [
             {q:"We like learning languages.",a:"Nous aimons apprendre les langues."}
           ]},
           {type:"fill",title:"Complete the sentences",items:[
-            {q:"J'______ le français.",a:"aime"},
-            {q:"Tu ______ étudier.",a:"aimes"},
-            {q:"Nous ______ écouter de la musique.",a:"aimons"},
-            {q:"Je n'______ pas travailler.",a:"aime"},
-            {q:"Elle ______ regarder des films.",a:"aime"}
+            {q:"J'______ le français.",a:"aime",why:"With je (j' before a vowel), regular -ER verbs like aimer take the ending -e."},
+            {q:"Tu ______ étudier.",a:"aimes",why:"With tu, regular -ER verbs take -es (tu aimes)."},
+            {q:"Nous ______ écouter de la musique.",a:"aimons",why:"With nous, regular -ER verbs take -ons (nous aimons)."},
+            {q:"Je n'______ pas travailler.",a:"aime",why:"Negation wraps ne (n' before a vowel) + conjugated verb + pas: je n'aime pas."},
+            {q:"Elle ______ regarder des films.",a:"aime",why:"With il/elle, regular -ER verbs take -e (elle aime)."}
           ]},
           {type:"mc",title:"Choose the correct answer",items:[
-            {q:"Which sentence means “I like learning French”?",options:["J'aime apprendre le français.","J'aime apprends le français.","Je aime apprendre le français."],a:"J'aime apprendre le français."},
-            {q:"Which sentence is negative?",options:["J'aime le sport.","Je n'aime pas le sport.","J'aime beaucoup le sport."],a:"Je n'aime pas le sport."},
-            {q:"What does “Qu'est-ce que tu aimes faire ?” mean?",options:["Where do you live?","What do you like doing?","How old are you?"],a:"What do you like doing?"}
+            {q:"Which sentence means “I like learning French”?",options:["J'aime apprendre le français.","J'aime apprends le français.","Je aime apprendre le français."],a:"J'aime apprendre le français.",why:"Je becomes j' before a vowel, and the second verb after aimer stays in the infinitive (apprendre)."},
+            {q:"Which sentence is negative?",options:["J'aime le sport.","Je n'aime pas le sport.","J'aime beaucoup le sport."],a:"Je n'aime pas le sport.",why:"French negation places ne (n' before a vowel) before the verb and pas after it."},
+            {q:"What does “Qu'est-ce que tu aimes faire ?” mean?",options:["Where do you live?","What do you like doing?","How old are you?"],a:"What do you like doing?",why:"Qu'est-ce que asks 'what', and tu aimes faire means 'you like to do / doing'."}
           ]}
         ]}
     ]
@@ -1075,16 +1075,16 @@ const LESSONS = [
             {q:"Today is Friday.",a:"Aujourd'hui, c'est vendredi."}
           ]},
           {type:"fill",title:"Complete the sentences",items:[
-            {q:"Je ______ réveille à cinq heures.",a:"me"},
-            {q:"Tu ______ lèves à six heures.",a:"te"},
-            {q:"Elle ______ couche à dix heures.",a:"se"},
-            {q:"Nous ______ réveillons tôt.",a:"nous"},
-            {q:"Il est huit heures ______. (8:30)",a:"et demie"}
+            {q:"Je ______ réveille à cinq heures.",a:"me",why:"Reflexive verbs require the matching reflexive pronoun: je me réveille."},
+            {q:"Tu ______ lèves à six heures.",a:"te",why:"With tu, the reflexive pronoun is te (tu te lèves)."},
+            {q:"Elle ______ couche à dix heures.",a:"se",why:"With il/elle, the reflexive pronoun is se (elle se couche)."},
+            {q:"Nous ______ réveillons tôt.",a:"nous",why:"With nous, the reflexive pronoun is nous (nous nous réveillons)."},
+            {q:"Il est huit heures ______. (8:30)",a:"et demie",why:"Half past the hour is expressed with 'et demie' (e.g. huit heures et demie)."}
           ]},
           {type:"mc",title:"Choose the correct answer",items:[
-            {q:"What does se réveiller mean?",options:["To go to bed.","To wake up.","To study."],a:"To wake up."},
-            {q:"Which sentence is correct?",options:["Je me réveille à cinq heures.","Je réveille me à cinq heures.","Je me réveiller à cinq heures."],a:"Je me réveille à cinq heures."},
-            {q:"What does “À quelle heure tu te couches ?” mean?",options:["Where do you live?","What time do you go to bed?","What time is it?"],a:"What time do you go to bed?"}
+            {q:"What does se réveiller mean?",options:["To go to bed.","To wake up.","To study."],a:"To wake up.",why:"Se réveiller means 'to wake up'; se lever is 'to get out of bed' and se coucher is 'to go to bed'."},
+            {q:"Which sentence is correct?",options:["Je me réveille à cinq heures.","Je réveille me à cinq heures.","Je me réveiller à cinq heures."],a:"Je me réveille à cinq heures.",why:"The reflexive pronoun me goes before the conjugated verb réveille."},
+            {q:"What does “À quelle heure tu te couches ?” mean?",options:["Where do you live?","What time do you go to bed?","What time is it?"],a:"What time do you go to bed?",why:"À quelle heure asks 'at what time', and se coucher means 'to go to bed'."}
           ]}
         ]}
     ]
@@ -1167,17 +1167,17 @@ const LESSONS = [
             {q:"Continue straight ahead.",a:"Continuez tout droit."}
           ]},
           {type:"fill",title:"Complete the conjugations",items:[
-            {q:"Je ______ à l'université.",a:"vais"},
-            {q:"Tu ______ au marché.",a:"vas"},
-            {q:"Nous ______ à la bibliothèque.",a:"allons"},
-            {q:"Vous ______ au restaurant.",a:"allez"},
-            {q:"Ils ______ à l'école.",a:"vont"}
+            {q:"Je ______ à l'université.",a:"vais",why:"Aller is irregular: je vais, tu vas, il/elle va."},
+            {q:"Tu ______ au marché.",a:"vas",why:"With tu, the irregular verb aller conjugates as tu vas."},
+            {q:"Nous ______ à la bibliothèque.",a:"allons",why:"With nous, aller conjugates as nous allons."},
+            {q:"Vous ______ au restaurant.",a:"allez",why:"With vous, aller conjugates as vous allez."},
+            {q:"Ils ______ à l'école.",a:"vont",why:"With ils/elles, the irregular form of aller is vont."}
           ]},
           {type:"mc",title:"Choose the correct article",items:[
-            {q:"Je vais ______ marché.",options:["à la","au","aux"],a:"au"},
-            {q:"Je vais ______ banque.",options:["à la","au","à l'"],a:"à la"},
-            {q:"Je vais ______ université.",options:["au","aux","à l'"],a:"à l'"},
-            {q:"Je vais ______ toilettes.",options:["au","aux","à la"],a:"aux"}
+            {q:"Je vais ______ marché.",options:["à la","au","aux"],a:"au",why:"Marché is masculine singular (le marché), and à + le always contracts to au."},
+            {q:"Je vais ______ banque.",options:["à la","au","à l'"],a:"à la",why:"Banque is feminine singular (la banque), so 'to the' is à la."},
+            {q:"Je vais ______ université.",options:["au","aux","à l'"],a:"à l'",why:"Université begins with a vowel sound, so 'to the' becomes à l'."},
+            {q:"Je vais ______ toilettes.",options:["au","aux","à la"],a:"aux",why:"Toilettes is plural (les toilettes), and à + les contracts to aux."}
           ]}
         ]}
     ]
@@ -1269,17 +1269,17 @@ const LESSONS = [
             {q:"The bill, please.",a:"L'addition, s'il vous plaît."}
           ]},
           {type:"fill",title:"Complete the conjugations",items:[
-            {q:"Je ______ un café. (vouloir)",a:"veux"},
-            {q:"Nous ______ du pain. (vouloir)",a:"voulons"},
-            {q:"Tu ______ une salade. (prendre)",a:"prends"},
-            {q:"Vous ______ un thé. (prendre)",a:"prenez"},
-            {q:"Ils ______ de l'eau. (vouloir)",a:"veulent"}
+            {q:"Je ______ un café. (vouloir)",a:"veux",why:"Vouloir is irregular: je veux, tu veux, il/elle veut."},
+            {q:"Nous ______ du pain. (vouloir)",a:"voulons",why:"With nous, vouloir conjugates as nous voulons."},
+            {q:"Tu ______ une salade. (prendre)",a:"prends",why:"Prendre conjugates as je prends, tu prends, il/elle prend."},
+            {q:"Vous ______ un thé. (prendre)",a:"prenez",why:"With vous, prendre drops the d: vous prenez."},
+            {q:"Ils ______ de l'eau. (vouloir)",a:"veulent",why:"With ils/elles, the irregular form of vouloir is veulent."}
           ]},
           {type:"mc",title:"Choose the correct article",items:[
-            {q:"Je mange ______ pain.",options:["de la","du","des"],a:"du"},
-            {q:"Je bois ______ eau.",options:["du","de la","de l'"],a:"de l'"},
-            {q:"Je voudrais ______ soupe.",options:["de la","du","aux"],a:"de la"},
-            {q:"Je mange ______ légumes.",options:["de l'","des","du"],a:"des"}
+            {q:"Je mange ______ pain.",options:["de la","du","des"],a:"du",why:"Pain is masculine singular (le pain), so the partitive 'some' is du (de + le)."},
+            {q:"Je bois ______ eau.",options:["du","de la","de l'"],a:"de l'",why:"Eau begins with a vowel sound, so the partitive article is de l'."},
+            {q:"Je voudrais ______ soupe.",options:["de la","du","aux"],a:"de la",why:"Soupe is feminine singular (la soupe), so the partitive 'some' is de la."},
+            {q:"Je mange ______ légumes.",options:["de l'","des","du"],a:"des",why:"Légumes is plural, so the partitive article is des."}
           ]}
         ]}
     ]
@@ -1384,23 +1384,23 @@ const LESSONS = [
             {q:"I study French every day.",a:"J'étudie le français tous les jours."}
           ]},
           {type:"fill",title:"Complete the sentences",items:[
-            {q:"Je ______ français. (parler)",a:"parle"},
-            {q:"Nous ______ le français. (étudier)",a:"étudions"},
-            {q:"Tu ______ à la maison. (travailler)",a:"travailles"},
-            {q:"Vous ______ à Addis-Abeba. (habiter)",a:"habitez"},
-            {q:"Ils ______ de la musique. (écouter)",a:"écoutent"}
+            {q:"Je ______ français. (parler)",a:"parle",why:"Regular -ER verbs take -e with je (je parle)."},
+            {q:"Nous ______ le français. (étudier)",a:"étudions",why:"Regular -ER verbs take -ons with nous (nous étudions)."},
+            {q:"Tu ______ à la maison. (travailler)",a:"travailles",why:"Regular -ER verbs take -es with tu (tu travailles)."},
+            {q:"Vous ______ à Addis-Abeba. (habiter)",a:"habitez",why:"Regular -ER verbs take -ez with vous (vous habitez)."},
+            {q:"Ils ______ de la musique. (écouter)",a:"écoutent",why:"Regular -ER verbs take silent -ent with ils/elles (ils écoutent)."}
           ]},
           {type:"mc",title:"Quiz: Lesson 9 check",items:[
-            {q:"What does travailler mean?",options:["To study","To work","To speak"],a:"To work"},
-            {q:"Complete: Je ___ français.",options:["parles","parler","parle"],a:"parle"},
-            {q:"Complete: Nous ___ le français.",options:["étudions","étudiez","étudient"],a:"étudions"},
-            {q:"Which ending belongs to vous?",options:["-e","-ez","-ent"],a:"-ez"},
-            {q:"Which verb is irregular despite ending in -ER?",options:["parler","habiter","aller"],a:"aller"},
-            {q:"What does J'écoute de la musique mean?",options:["I watch a video","I listen to music","I study music"],a:"I listen to music"},
-            {q:"Translate: I live in Addis Ababa.",options:["Je vais à Addis-Abeba.","J'habite à Addis-Abeba.","Je travaille à Addis-Abeba."],a:"J'habite à Addis-Abeba."},
-            {q:"What happens to the -ent ending in ils parlent?",options:["It is pronounced","It is silent","It becomes a separate syllable"],a:"It is silent"},
-            {q:"Translate: I would like water.",options:["Je voudrais de l'eau.","Je parle de l'eau.","Je prends du pain."],a:"Je voudrais de l'eau."},
-            {q:"Translate: I go to the university.",options:["Je parle à l'université.","Je vais à l'université.","J'étudie l'université."],a:"Je vais à l'université."}
+            {q:"What does travailler mean?",options:["To study","To work","To speak"],a:"To work",why:"Travailler means 'to work' (étudier = to study, parler = to speak)."},
+            {q:"Complete: Je ___ français.",options:["parles","parler","parle"],a:"parle",why:"With je, remove -er from parler and add -e → je parle."},
+            {q:"Complete: Nous ___ le français.",options:["étudions","étudiez","étudient"],a:"étudions",why:"With nous, remove -er from étudier and add -ons → nous étudions."},
+            {q:"Which ending belongs to vous?",options:["-e","-ez","-ent"],a:"-ez",why:"Regular -ER endings: je -e, tu -es, il/elle -e, nous -ons, vous -ez, ils/elles -ent."},
+            {q:"Which verb is irregular despite ending in -ER?",options:["parler","habiter","aller"],a:"aller",why:"Aller (to go) ends in -ER but conjugates irregularly (je vais, tu vas, il va…)."},
+            {q:"What does J'écoute de la musique mean?",options:["I watch a video","I listen to music","I study music"],a:"I listen to music",why:"Écouter means 'to listen' and de la musique means 'music'."},
+            {q:"Translate: I live in Addis Ababa.",options:["Je vais à Addis-Abeba.","J'habite à Addis-Abeba.","Je travaille à Addis-Abeba."],a:"J'habite à Addis-Abeba.",why:"Habiter means 'to live' (je becomes j' before the silent h), and à precedes a city."},
+            {q:"What happens to the -ent ending in ils parlent?",options:["It is pronounced","It is silent","It becomes a separate syllable"],a:"It is silent",why:"The third-person plural verb ending -ent is always silent; 'il parle' and 'ils parlent' sound identical."},
+            {q:"Translate: I would like water.",options:["Je voudrais de l'eau.","Je parle de l'eau.","Je prends du pain."],a:"Je voudrais de l'eau.",why:"Je voudrais means 'I would like', and eau takes the partitive de l' before a vowel."},
+            {q:"Translate: I go to the university.",options:["Je parle à l'université.","Je vais à l'université.","J'étudie l'université."],a:"Je vais à l'université.",why:"Je vais means 'I go', and université takes à l' because it starts with a vowel."}
           ]}
         ]}
     ]
@@ -2120,7 +2120,10 @@ function renderModuleBody(m){
         h += '<li>'+escapeHtml(item.q)+'</li>';
       });
       h += '</ol><details><summary>Show answers</summary><ol>';
-      sec.items.forEach(item=>{ h += '<li>'+escapeHtml(item.a)+'</li>'; });
+      sec.items.forEach(item=>{
+        const whyTxt = item.why ? ' <span style="color:var(--muted);font-style:italic;">— '+escapeHtml(item.why)+'</span>' : '';
+        h += '<li><strong>'+escapeHtml(item.a)+'</strong>'+whyTxt+'</li>';
+      });
       h += '</ol></details></div>';
     });
     return h;
@@ -2475,7 +2478,8 @@ function renderGrammarPractice(container){
     const it = p.item;
     const qid = "gp-"+i;
     const altAttr = it.alt ? ' data-alt="'+escapeHtml(JSON.stringify(it.alt))+'"' : '';
-    html += '<div class="practice-card" data-qid="'+qid+'" data-answer="'+escapeHtml(it.a)+'"'+altAttr+'>';
+    const whyAttr = it.why ? ' data-why="'+escapeHtml(it.why)+'"' : '';
+    html += '<div class="practice-card" data-qid="'+qid+'" data-answer="'+escapeHtml(it.a)+'"'+altAttr+whyAttr+'>';
     html += '<h3>'+escapeHtml(it.q)+'</h3>';
     html += '<div class="pc-sub">L'+p.lesson.num+' · '+escapeHtml(p.module.title)+'</div>';
     if (p.sec.type==="mc"){
@@ -2525,18 +2529,25 @@ function renderGrammarPractice(container){
 
   container.querySelectorAll(".practice-card").forEach(card=>{
     const answer = card.dataset.answer;
+    const why = card.dataset.why || "";
     const fb = card.querySelector(".fb");
+    function setFb(kind, headline){
+      fb.className = "fb " + kind;
+      fb.innerHTML = '<strong>' + escapeHtml(headline) + '</strong>' +
+        (why ? '<div style="margin-top:4px;font-size:12.5px;opacity:.92;">' + escapeHtml(why) + '</div>' : '');
+    }
     card.querySelectorAll(".mc-opt").forEach(btn=>{
       btn.onclick = ()=>{
         const val = btn.dataset.opt;
         card.querySelectorAll(".mc-opt").forEach(b=>b.disabled = true);
         if (val===answer){
-          btn.classList.add("correct"); fb.className = "fb ok"; fb.textContent = "Correct ✓";
+          btn.classList.add("correct");
+          setFb("ok", "Correct ✓");
           recordGrammarAnswer(true);
         } else {
           btn.classList.add("wrong");
           card.querySelectorAll(".mc-opt").forEach(b=>{ if (b.dataset.opt===answer) b.classList.add("correct"); });
-          fb.className = "fb err"; fb.textContent = "Not quite. Answer: "+answer;
+          setFb("err", "Not quite. Correct answer: " + answer);
           recordGrammarAnswer(false);
         }
       };
@@ -2553,7 +2564,7 @@ function renderGrammarPractice(container){
           .replace(/[.,!?;:"«»…]/g,"")
           .replace(/\s+/g," ")
           .trim();
-        const stripAccents = s=>clean(s).normalize("NFD").replace(/[̀-ͯ]/g,"");
+        const stripAccents = s=>clean(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"");
         const acceptedList = [answer];
         try {
           if (card.dataset.alt){
@@ -2567,13 +2578,13 @@ function renderGrammarPractice(container){
 
         input.disabled = true; checkBtn.disabled = true;
         if (exactMatch){
-          fb.className = "fb ok"; fb.textContent = "Correct ✓";
+          setFb("ok", "Correct ✓");
           recordGrammarAnswer(true);
         } else if (accentLooseMatch){
-          fb.className = "fb ok"; fb.textContent = "Correct ✓ (watch the accent: " + accentLooseMatch + ")";
+          setFb("ok", "Correct ✓ (watch the accent: " + accentLooseMatch + ")");
           recordGrammarAnswer(true);
         } else {
-          fb.className = "fb err"; fb.textContent = "Answer: " + answer;
+          setFb("err", "Not quite. Answer: " + answer);
           recordGrammarAnswer(false);
         }
       };
@@ -2624,23 +2635,42 @@ function renderSpeakingPractice(container){
 function renderWritingPractice(container){
   const prompts = [];
   LESSONS.forEach(l=>{
-    if (l.modules.find(m=>m.type==="writing")){
-      prompts.push({ lesson:l, id:"W-"+l.id, title:"Write about Lesson "+l.num+": "+l.title,
-        hint:"Use the model in the lesson's Writing module." });
+    const wMod = l.modules.find(m=>m.type==="writing");
+    if (wMod){
+      prompts.push({
+        lesson:l,
+        id:"W-"+l.id,
+        title:"Lesson "+l.num+": "+l.title,
+        hint:wMod.note || "Use the model in the lesson's Writing module.",
+        model:wMod.model || ""
+      });
     }
   });
-  // Add one general prompt
-  prompts.push({ lesson:{num:"—"}, id:"W-general", title:"Introduce yourself in French",
-    hint:"Name, age, country, city, languages you speak, language you're learning, and one interest." });
-  let html = '<p style="font-size:13px;color:var(--muted);margin-bottom:14px;">Your writing journal is saved on this device. Revisit and edit any entry.</p>';
+  prompts.push({
+    lesson:{num:"—"},
+    id:"W-general",
+    title:"Introduce yourself in French",
+    hint:"Name, age, country, city, languages you speak, language you're learning, and one interest.",
+    model:"Bonjour ! Je m'appelle Ahmed. J'ai vingt et un ans. Je viens d'Éthiopie et j'habite à Addis-Abeba. Je suis étudiant en informatique. Je parle amharique et anglais, et j'apprends le français. J'aime étudier les langues, mais je n'aime pas regarder la télévision."
+  });
+  let html = '<p style="font-size:13px;color:var(--muted);margin-bottom:14px;">Write your French paragraph, save it, and tap <b>Copy for AI correction</b> to get detailed grammar and phrasing feedback in ChatGPT or Claude.</p>';
   prompts.forEach(p=>{
     const entry = state.writingEntries[p.id] || { text:"", updatedAt:null };
     const updated = entry.updatedAt ? new Date(entry.updatedAt).toLocaleString() : "—";
-    html += '<div class="practice-card">';
+    html += '<div class="practice-card" data-wtitle="'+escapeHtml(p.title)+'">';
     html += '<h3>'+escapeHtml(p.title)+'</h3>';
     html += '<div class="pc-sub">'+escapeHtml(p.hint)+'</div>';
+    if (p.model){
+      html += '<details style="margin-bottom:10px;"><summary style="cursor:pointer;font-size:12.5px;color:var(--blue);font-weight:600;user-select:none;">View model answer</summary>';
+      html += '<div style="margin-top:6px;padding:10px 12px;border-radius:8px;background:var(--surface-2);border:1px solid var(--line);font-family:'Fraunces',serif;font-style:italic;font-size:13.5px;color:var(--ink);">'+escapeHtml(p.model)+'</div></details>';
+    }
     html += '<textarea class="fill-input" id="jt-'+p.id+'" style="min-height:130px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink);font-family:inherit;font-size:14px;resize:vertical;width:100%;outline:none;" placeholder="Write in French…">'+escapeHtml(entry.text)+'</textarea>';
-    html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:11.5px;color:var(--muted)"><span>Last saved: '+updated+'</span><button class="btn btn-blue" data-save="'+p.id+'" style="padding:6px 12px;font-size:12px;">Save</button></div>';
+    html += '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-top:8px;font-size:11.5px;color:var(--muted)">';
+    html += '<span>Last saved: '+updated+'</span>';
+    html += '<div style="display:flex;gap:8px;flex-wrap:wrap;">';
+    html += '<button class="btn btn-secondary" data-ai-correct="'+p.id+'" style="padding:6px 12px;font-size:12px;">Copy for AI correction</button>';
+    html += '<button class="btn btn-blue" data-save="'+p.id+'" style="padding:6px 12px;font-size:12px;">Save</button>';
+    html += '</div></div>';
     html += '</div>';
   });
   container.innerHTML = html;
@@ -2653,6 +2683,36 @@ function renderWritingPractice(container){
       renderWritingPractice(container);
       refreshAll();
       toast("Entry saved ✓");
+    };
+  });
+  container.querySelectorAll("[data-ai-correct]").forEach(b=>{
+    b.onclick = async ()=>{
+      const id = b.dataset.aiCorrect;
+      const ta = document.getElementById("jt-"+id);
+      const draft = (ta.value || "").trim();
+      if (!draft){
+        toast("Write a few sentences in French first.");
+        ta.focus();
+        return;
+      }
+      const card = b.closest(".practice-card");
+      const taskTitle = card ? card.dataset.wtitle : "French writing practice";
+      const prompt =
+`Please review my beginner (A1) French writing for the task: "${taskTitle}".
+
+My French text:
+"${draft}"
+
+Please provide:
+1. A corrected, natural A1 French version.
+2. A bullet-by-bullet explanation of every grammar, spelling, accent, or word-order mistake and which rule applies.
+3. One or two tips to sound more natural at A1 level.`;
+      try {
+        await navigator.clipboard.writeText(prompt);
+        toast("Correction prompt copied — paste into ChatGPT or Claude ✓");
+      } catch (e) {
+        toast("Could not access clipboard — copy your text manually.");
+      }
     };
   });
 }
@@ -2838,8 +2898,8 @@ Required JSON schema:
         "title": "Assessment",
         "sections": [
           { "type": "translate", "title": "Translate into French", "items": [{ "q": "English prompt", "a": "French answer" }] },
-          { "type": "fill", "title": "Complete the sentences", "items": [{ "q": "Je ______ ...", "a": "missing word" }] },
-          { "type": "mc", "title": "Quiz check", "items": [{ "q": "Question?", "options": ["A", "B", "C"], "a": "A" }] }
+          { "type": "fill", "title": "Complete the sentences", "items": [{ "q": "Je ______ ...", "a": "missing word", "why": "Short explanation of the grammar rule." }] },
+          { "type": "mc", "title": "Quiz check", "items": [{ "q": "Question?", "options": ["A", "B", "C"], "a": "A", "why": "Short explanation of why A is correct." }] }
         ]
       }
     ]
